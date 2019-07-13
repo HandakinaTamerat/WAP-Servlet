@@ -1,0 +1,27 @@
+.container{
+    padding-top: 5px;
+}
+
+.container h1{
+    text-align: center;
+}
+.form{
+    width: 300px;
+    margin: auto;
+}
+form div,
+form input[type="submit"]{
+    margin-bottom: 2px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+}
+input[type="submit"]{
+    padding: 5px;
+    display: block;
+    background-color: black;
+    width: 100%;
+    color: #ffffff;
+    margin: auto;
+}

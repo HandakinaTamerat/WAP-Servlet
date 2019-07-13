@@ -2,53 +2,27 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WAP-Servlet:Web exploded" />
+      <artifact name="WAP-Servlet:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcfab9c-5814-45e5-a513-8c9e0e6bcf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/WAP-Servlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/WAP_Servlet_Web_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WAP-Servlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/DB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/LoginAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/ServerListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/ServletLogout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/UserPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/test/DateTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/LoginAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/WAP-Servlet.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/ServerListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/ServletLogout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/UserPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/test/DateTag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/custom.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WAP_Servlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WAP_Servlet_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletAssignmentTwo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WAP-Servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/DateTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/MyTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/MyTag2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/MyTag3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/DateTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyTag2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/MyTag3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/custom.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,19 +37,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+      </list>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -103,6 +106,28 @@
               <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,7 +143,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -137,12 +162,12 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WAP_Servlet_Web_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WAP_Servlet_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="WAP-Servlet:Web exploded">
+        <artifact name="WAP-Servlet:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/WAP_Servlet_Web_exploded" />
+            <option name="CONTEXT_PATH" value="/WAP_Servlet_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -205,7 +230,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="WAP-Servlet:Web exploded" />
+          <artifact name="WAP-Servlet:war exploded" />
         </option>
       </method>
     </configuration>
@@ -223,17 +248,18 @@
       <workItem from="1562817304506" duration="12000" />
       <workItem from="1562900355973" duration="41000" />
       <workItem from="1562900410597" duration="93000" />
-      <workItem from="1563020828098" duration="344000" />
+      <workItem from="1563020828098" duration="1132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490000" />
+    <option name="totallyTimeSpent" value="1278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,10 +278,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,10 +297,35 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -283,8 +334,15 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>WAP-Servlet:Web exploded</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>WAP-Servlet:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -336,7 +394,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.41666666" />
               </list>
             </option>
           </splitter-proportions>
