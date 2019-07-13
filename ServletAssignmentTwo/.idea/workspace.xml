@@ -7,29 +7,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fcfab9c-5814-45e5-a513-8c9e0e6bcf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WAP_Servlet_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAPServlet/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAPServlet/src/main/java/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAPServlet/src/main/java/MyDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAPServlet/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WAPServlet/src/main/java/UserPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WAP-Servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WAP-Servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/.idea/artifacts/WAP_Servlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/.idea/artifacts/WAP_Servlet_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/WAP-Servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/ServletAssignmentTwo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/out/artifacts/WAP_Servlet_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/out/artifacts/WAP_Servlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WAPServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WAPServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/WAP-Servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/WAP_Servlet_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WAP-Servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/DB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/LoginAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ServerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/ServletLogout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/UserPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/test/DateTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/test/MyTag3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/LoginAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/WAP-Servlet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ServerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/ServletLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/UserPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/test/DateTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/test/MyTag3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/custom.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/resources/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/test.jsp" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,6 +90,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -56,17 +103,12 @@
               <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ServletAssignmentTwo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServletAssignmentTwo" type="462c0819:PsiDirectoryNode" />
-              <item name="WAPServlet" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -76,9 +118,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,16 +223,17 @@
       <workItem from="1562817304506" duration="12000" />
       <workItem from="1562900355973" duration="41000" />
       <workItem from="1562900410597" duration="93000" />
+      <workItem from="1563020828098" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146000" />
+    <option name="totallyTimeSpent" value="490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -197,11 +241,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,8 +252,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -225,6 +269,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -283,6 +336,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.41666666" />
               </list>
             </option>
           </splitter-proportions>
@@ -302,6 +356,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.el:javax.el-api:3.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
