@@ -23,20 +23,20 @@ public class LoginAuth implements Filter {
            String pass=request.getParameter("password");
            if(userName!=null&&pass!=null){
                if(DB.getUser(userName)!=null&& DB.getUser(userName).getPassword().equalsIgnoreCase(pass)){
-                   if(request.getParameter("remember")=="true"){
+                   if(request.getParameterValues("remember")!=null && request.getParameterValues("remember")[0].equalsIgnoreCase("on")){
                        Cookie userCookie = new Cookie("userName", userName);
                        userCookie.setMaxAge(2592000); //for month
                        response.addCookie(userCookie);
                    }else {
                        for (Cookie cookie : request.getCookies()) {
                            if (cookie.getName().equals("userName")) {
-                               cookie.setMaxAge(-1);
+                               cookie.setMaxAge(0);
                            }
                        }
                    }
                    session=request.getSession(true);
                    session.setAttribute("userName",request.getParameter("name"));
-                   resp.getWriter().print("<a href='logou'>Logout</a>");
+                   resp.getWriter().print("<a href='logout'>Logout</a>");
                    chain.doFilter(req,resp);
                    Cookie promo = new Cookie("value", "$100");
                    promo.setMaxAge(2592000); //for month

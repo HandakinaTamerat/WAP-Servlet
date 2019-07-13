@@ -18,30 +18,21 @@
     <div class="form">
       <form action="userpage" method="POST">
         <div>
-          <% String name=null;
+          <% String name="";
               for (Cookie cookie : request.getCookies()) {
                 if (cookie.getName().equals("userName")) {
                   name= cookie.getValue();
                 }
               }
             %>
-          <c:if test="${name==null}">
-            <h5>User Name: </h5> <input type="text" name="name"  >
-          </c:if>
-          <c:if test="${name!=null}">
-            <h5>User Name: </h5> <input type="text" name="name" value="<%=name%>" >
-          </c:if>
+
+          <h5>User Name: </h5> <input type="text" name="name" value="<%=  name.equals("")?"":name%>" >
         </div>
         <div>
           <h5>Password: </h5><input type="password" name="password">
         </div>
         <div>
-          <c:if test="${name==null}">
-            <input type="checkbox" name="remember" id="remember"> <label for="remember"> Remember Me</label>
-          </c:if>
-          <c:if test="${name!=null}">
-            <input type="checkbox" name="remember" id="remember" checked> <label for="remember"> Remember Me</label>
-          </c:if>
+            <input type="checkbox" name="remember" id="remember" <%=name.equals("")?"":"checked"%>> <label for="remember"> Remember Me</label>
         </div>
         <input type="submit" value="Login">
       </form>
