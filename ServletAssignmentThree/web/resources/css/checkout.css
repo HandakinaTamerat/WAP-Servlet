@@ -1,0 +1,57 @@
+h3{
+    text-align: center;
+}
+.orders div,
+.address,
+.payment-form{
+    background-color: #ffffff;
+    border-color: #eeeeee;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    vertical-align: center;
+}
+.orders div *{
+    float: right;
+    margin: 5px;
+}
+.orders div p{
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+}
+.orders div *:first-child{
+    float: left;
+}
+.address,
+.payment-form{
+    padding-top: 10px;
+}
+.address div,
+.payment-form div{
+    clear: left;
+}
+.address div *,
+.payment-form div *{
+    display: inline-block;
+    float: left;
+    max-width: 300px;
+    min-width: 125px;
+}
+.address div label,
+.payment-form div label{
+    margin: 10px;
+}
+.checkoutNum{
+    width: 50px;
+    display: block;
+    padding: 5px;
+}
+.sbm-area{
+    display: block;
+    width: 200px;
+    margin: 5px auto;
+}

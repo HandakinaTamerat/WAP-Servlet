@@ -9,10 +9,7 @@ import java.io.PrintWriter;
 @WebServlet(name = "UserPage")
 public class UserPage extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out=response.getWriter();
-        out.print("<HTML><head><title>user profile</title></head><body> <h2>Welcome "+request.getSession(false).getAttribute("userName")+"</h2>");
-        out.print("<p>Profile page</p>");
-        out.print("</body></html>");
+        doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

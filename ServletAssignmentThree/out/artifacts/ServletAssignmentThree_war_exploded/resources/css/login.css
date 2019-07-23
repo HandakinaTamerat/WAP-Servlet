@@ -1,0 +1,39 @@
+.login-form{
+    display: block;
+    position: fixed;
+    margin: auto;
+    top:100px;
+    left: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.login-form *{
+    margin-top: 10px;
+}
+.login-form input[type="submit"]{
+    display: block;
+    width: 160px;
+    margin: 10px auto;
+}
+.login-modal{
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+#loginModal{
+    display: none;
+}
+.login-form h4{
+    display: inline-block;
+}
+#modalClose{
+    float: right;
+    margin: 10px;
+    color: red;
+    cursor: pointer;
+}

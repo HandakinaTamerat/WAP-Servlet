@@ -1,0 +1,67 @@
+body{
+    background: #eeeeee;
+}
+header{
+    overflow: hidden;
+    background: #ffffff;
+}
+header> div{
+   width: 1200px;
+    margin: auto;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    margin: auto 10px;
+}
+input[type="search"]{
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 25px 5px 0px 5px;
+}
+.cart-container{
+    margin: 16px 0px 10px 5px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.cart-container *{
+    float: left;
+    margin: 2px;
+}
+.cart img{
+    margin-top: 5px;
+    width: 30px;
+}
+#cartNum{
+    position: relative;
+    bottom: 7px;
+    left: 25px;
+    color: #ffffff;;
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+#signout-container{
+    float: left;
+}
+#cart-container{
+    float: left;
+}
+
+.card{
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #eeeeee;
+    background-color: #ffffff;
+}
